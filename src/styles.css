@@ -171,7 +171,6 @@ header {
 
 
 .port-title h3 {
-
     width: 180px;
     margin-top: 100px;
     text-align: center;
@@ -183,33 +182,36 @@ header {
 
 .grids-container {
     display: grid;
+    border: 1px solid red;
     width: 100%;
     margin-top: 5%;
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: repeat(2, 2fr);
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+    gap: 12px;
+
+
+
 }
+
 
 .box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
-    background-color: #f0f0f0;
+    width: 400px;
+    height: 400px;
+    background-color: #191A23;
     padding: 20px;
-    text-align: center;
-    border: 1px solid #b32222;
+
 }
 
 .img-projeto {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 90%;
+
 
 }
 
@@ -218,6 +220,30 @@ header {
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
+}
 
+.box h4 {
+    display: flex;
+    font-size: 1.4rem;
+    color: #fff;
+    width: 90%;
+    justify-content: left;
+}
 
+.buttons {
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    justify-content: left;
+}
+
+.github-btn {
+    border: none;
+    background-color: #ffea00;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.github-btn:hover {
+    cursor: pointer;
 }
