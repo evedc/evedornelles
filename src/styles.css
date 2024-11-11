@@ -199,7 +199,7 @@ header {
     width: 400px;
     height: 400px;
     background-color: #191A23;
-    padding: 20px;
+    padding: 30px;
 
 }
 
@@ -229,18 +229,54 @@ header {
 
 .buttons {
     display: flex;
+    margin-top: 2%;
     gap: 10px;
     width: 90%;
     justify-content: left;
+
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+button.github-btn,
+button.view-btn {
+    outline: none;
+    box-shadow: none;
+
 }
 
 .github-btn {
     border: none;
-    background-color: #ffea00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 200;
     border-radius: 4px;
     width: 100px;
 }
 
 .github-btn:hover {
     cursor: pointer;
+    opacity: 0.8;
+}
+
+.view-btn {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 200;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.view-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
