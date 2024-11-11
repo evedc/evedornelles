@@ -182,15 +182,12 @@ header {
 
 .grids-container {
     display: grid;
-    border: 1px solid red;
-    width: 100%;
+    width: auto;
     margin-top: 5%;
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: repeat(2, 2fr);
-    gap: 12px;
-
-
-
+    gap: 20px;
+    place-items: center;
 }
 
 
