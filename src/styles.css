@@ -139,7 +139,9 @@ header {
 }
 
 .skills {
-    display: flex;
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: repeat(6, 2fr);
     gap: 10px;
     padding: 10px;
 }
@@ -152,7 +154,7 @@ header {
     height: 100px;
     gap: 10px;
     padding: 10px;
-    background-color: #ffea00;
+    background-color: #191A23;
 }
 
 .img-box {
