@@ -141,7 +141,7 @@ header {
 .skills {
     display: grid;
     margin-top: 5%;
-    grid-template-columns: repeat(6, 2fr);
+    grid-template-columns: repeat(7, 2fr);
     gap: 10px;
     padding: 10px;
 }
@@ -156,6 +156,47 @@ header {
     padding: 10px;
     background-color: #191A23;
 }
+
+.skil1:hover {
+    -webkit-animation: swing 1s ease;
+    animation: anime-balanco 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    cursor: pointer;
+}
+
+@keyframes anime-balanco {
+    15% {
+        -webkit-transform: translateX(7px);
+        transform: translateX(7px);
+    }
+
+    30% {
+        -webkit-transform: translateX(-7px);
+        transform: translateX(-7px);
+    }
+
+    50% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+
+    65% {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+
+    80% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
 
 .img-box {
     display: flex;
