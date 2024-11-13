@@ -263,6 +263,7 @@ header {
     display: grid;
     width: auto;
     margin-top: 5%;
+    margin-bottom: 5%;
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: repeat(2, 2fr);
     gap: 20px;
@@ -364,7 +365,6 @@ button.view-btn {
 
 footer {
     width: 100%;
-    margin-top: 5%;
-    height: 40px;
+    height: 60px;
     background-color: #191A23;
 }
