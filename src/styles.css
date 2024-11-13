@@ -382,3 +382,20 @@ button.view-btn {
     background-color: #ffea00;
     font-size: 1.5rem;
 }
+
+.contato {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.redes-ct {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-container h4 {
+    color: #fff;
+}
