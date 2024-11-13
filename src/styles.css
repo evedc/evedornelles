@@ -6,7 +6,6 @@
     font-family: "Poppins", serif;
     font-weight: 300;
     font-style: normal;
-
 }
 
 nav {
@@ -363,39 +362,9 @@ button.view-btn {
     opacity: 0.8;
 }
 
-.contact-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+footer {
     width: 100%;
-    height: auto;
-    background-color: #000000;
-}
-
-.ct-title h3 {
-    width: 180px;
-    margin-top: 100px;
-    text-align: center;
-    font-weight: 500;
-    color: #000000;
-    background-color: #ffea00;
-    font-size: 1.5rem;
-}
-
-.contato {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3%;
-}
-
-.redes-ct {
-    display: flex;
-    gap: 20px;
-}
-
-.contact-container h4 {
-    color: #fff;
+    margin-top: 5%;
+    height: 40px;
+    background-color: #191A23;
 }
