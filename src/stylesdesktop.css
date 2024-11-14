@@ -79,34 +79,33 @@
         background-image: url(./images/dev.png);
         background-repeat: no-repeat;
         background-position: left;
+        background-size: auto;
     }
 
     .texto {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
+        align-items: flex-start;
         color: #fff;
-        width: 80%;
+        width: 100%;
     }
 
     .texto h1 {
         font-size: 200px;
-        margin-left: 5%;
+
         height: auto;
+        width: 50%;
     }
 
     .texto p {
-        width: 80%;
+        width: 50%;
         font-size: 60px;
-        margin-left: 5%;
-    }
-
-    .nome-detalhe {
-        color: #ffea00
     }
 
     .sobre-container {
         display: flex;
+        flex-direction: row;
         height: auto;
         justify-content: center;
         gap: 30px;
@@ -200,7 +199,11 @@
 
 
     .img-box {
-        display: flex;
+        display: none;
+    }
+
+    .img-box img {
+        display: none;
     }
 
     .img-box2 {
@@ -219,8 +222,6 @@
         display: flex;
         flex-direction: column;
         width: 50%;
-        justify-content: center;
-        align-items: center;
         color: #fff;
     }
 
@@ -232,7 +233,6 @@
 
     .sobre-title h3 {
         width: 180px;
-        text-align: center;
         font-weight: 500;
         color: #000000;
         background-color: #ffea00;
@@ -242,6 +242,10 @@
     .texto-box p {
         margin-top: 4%;
         font-size: 20px;
+        text-align: left;
+        justify-content: left;
+        width: 100%;
+
     }
 
     .tech-container {

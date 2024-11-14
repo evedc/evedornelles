@@ -73,6 +73,10 @@ nav {
     overflow: hidden;
 }
 
+.img-box2 {
+    display: none;
+}
+
 .img-box img {
     width: 70%;
     position: absolute;
