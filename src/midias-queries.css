@@ -130,13 +130,12 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #000000;
+    overflow: hidden;
 }
 
-.skill.ativo {
-    border-radius: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-
+.skills.ativa {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 .skills-title h3 {
@@ -154,10 +153,21 @@ header {
     grid-template-columns: repeat(3, 2fr);
     gap: 10px;
     padding: 10px;
-    left: -100%;
-    transition: transform 2s ease, right 1s ease;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 1s ease, opacity 1s ease;
 }
 
+.skil1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    gap: 10px;
+    padding: 10px;
+    background-color: #191A23;
+}
 
 .skil1:hover {
     -webkit-animation: swing 1s ease;
