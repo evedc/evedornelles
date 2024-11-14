@@ -66,7 +66,7 @@ nav {
 .img-box {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -161,10 +161,26 @@ nav {
     grid-template-columns: repeat(3, 2fr);
     gap: 10px;
     padding: 10px;
-    left: -100%;
-    transition: transform 2s ease, right 1s ease;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 1s ease, opacity 1s ease;
 }
 
+.skills.ativa {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.skil1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    gap: 10px;
+    padding: 10px;
+    background-color: #191A23;
+}
 
 .skil1:hover {
     -webkit-animation: swing 1s ease;
