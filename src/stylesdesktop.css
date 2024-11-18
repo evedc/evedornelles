@@ -244,8 +244,9 @@
     .texto-box p {
         display: flex;
         margin-top: 4%;
-        font-size: 20px;
+        font-size: 16px;
         text-align: left;
+        margin-bottom: 50px;
         justify-content: left;
         width: 100%;
         padding: 0;
@@ -290,8 +291,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
         background-color: #191A23;
         padding: 30px;
 
